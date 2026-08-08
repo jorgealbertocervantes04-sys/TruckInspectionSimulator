@@ -93,10 +93,6 @@ export class Wheel {
             this.rimMaterial
         );
 
-        /*
-         * Cylinder nace con eje Y.
-         * Lo giramos 90° para que el eje sea Z.
-         */
 
         rim.rotation.x = Math.PI / 2;
 
